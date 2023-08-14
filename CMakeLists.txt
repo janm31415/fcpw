@@ -56,7 +56,7 @@ if(FCPW_BUILD_TESTS)
 endif()
 
 if(FCPW_USE_ENOKI)
-	add_subdirectory(deps/enoki)
+	#add_subdirectory(deps/enoki)
 	if(hasParent)
 		set(FCPW_ENOKI_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/deps/enoki/include PARENT_SCOPE)
 	else()
